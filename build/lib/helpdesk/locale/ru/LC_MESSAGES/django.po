@@ -40,7 +40,7 @@ msgstr "Электронный адрес отправителя"
 #: templates/helpdesk/ticket_list.html:222 views/staff.py:1178
 #: views/staff.py:1184 views/staff.py:1190 views/staff.py:1196
 msgid "Queue"
-msgstr "Ресторан"
+msgstr "Подразделение"
 
 #: forms.py:148
 msgid "Summary of the problem"
@@ -836,7 +836,7 @@ msgid ""
 "{{ queue }} - The queue; and {{ user }} - the current user."
 msgstr ""
 "Доступный контекст: {{ ticket }} - тикет (например {{ ticket.title }}); "
-"{{ queue }} - Ресторан; и {{ user }} - текущий пользователь."
+"{{ queue }} - Подразделение; и {{ user }} - текущий пользователь."
 
 #: models.py:852
 msgid ""
@@ -1814,7 +1814,7 @@ msgstr "Ошибка:"
 #: templates/helpdesk/public_view_ticket.html:10
 #, python-format
 msgid "Queue: %(queue_name)s"
-msgstr "Ресторан: %(queue_name)s"
+msgstr "Подразделение: %(queue_name)s"
 
 #: templates/helpdesk/public_view_ticket.html:14
 #: templates/helpdesk/ticket_desc_table.html:42
@@ -2387,7 +2387,7 @@ msgstr "Удерживать"
 #: templates/helpdesk/ticket_desc_table.html:20
 #, python-format
 msgid "Queue: %(queue)s"
-msgstr "Ресторан: %(queue)s"
+msgstr "Подразделение: %(queue)s"
 
 #: templates/helpdesk/ticket_desc_table.html:47
 msgid "Assigned To"
@@ -2506,7 +2506,7 @@ msgstr "Нажмите Ctrl для выбора нескольких вариа�
 
 #: templates/helpdesk/ticket_list.html:113
 msgid "Queue(s)"
-msgstr "Ресторан(ы)"
+msgstr "Подразделение(я)"
 
 #: templates/helpdesk/ticket_list.html:114
 #: templates/helpdesk/ticket_list.html:120
